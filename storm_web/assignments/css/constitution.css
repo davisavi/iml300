@@ -1,0 +1,108 @@
+/* 
+CUSTOMIZE the following section as you wish
+Feel free to add additional styling if you wish
+DO NOT CHANGE the class names
+*/
+
+.article {
+    font-family: sans-serif;
+    font-size: 88px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: right;
+    background-color: black;
+    color:white
+}
+
+.section {
+    font-family: sans-serif;
+    font-size: 48px;
+    text-transform: lowercase;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: black;
+    color:white
+}
+
+.amendment {
+    
+}
+
+.emphasize {
+    
+}
+
+.keywords {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+}
+
+p {
+    font-family: sans-serif;
+    text-indent: 30px;
+    /*line-height: 30px;*/
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+/* --------------------------------------- */
+/*        DO NOT MODIFY BELOW HERE         */
+/* --------------------------------------- */
+
+footer {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    color: dimgrey;
+    vertical-align: top
+}
+
+footer a {
+    text-decoration: none;    
+    font-size: 1em;    
+}
+
+footer a span {           
+    font-size: 2em;
+    vertical-align: text-bottom
+}
+
+
+footer a:hover {
+    color: red;
+}
+
+nav {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+nav:first-child {
+    margin-left: 1em;
+    float: left;
+    display: inline; 
+    width: auto;
+}
+
+nav:last-child {
+    margin-right: 1em;
+    float: right;
+}
+
+#backButton:before {
+/*    content: "\25C0 ";*/
+    content: "\2190 ";
+    font-size: 3em;
+}
+
+#nextButton:after {
+/*    content: "\25B6 ";*/
+    content: "\2192 ";
+    font-size: 3em;
+}
