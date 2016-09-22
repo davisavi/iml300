@@ -1,0 +1,91 @@
+body {
+    font-family: monaco;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+p {
+    font-size: 12px;
+    padding-right: 225px;
+    text-indent: 50px;
+}
+
+h1 {
+    font-style: italic;
+    text-decoration: line-through;
+    text-align: center;
+    font-size: 130px;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+}
+
+
+h2{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+h2:first-of-type {
+    padding-right: 225px;
+}
+
+h3 {
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+h4{
+    text-decoration: underline;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+/*
+i got the nav bar stylings code (indicated by lines marked with "A")from http://www.w3schools.com/css/css_navbar.asp
+i have addapted and customized the original code
+*/
+.navbar {
+    position: fixed;
+    right:25px;
+}
+
+ul.navbar { /*A*/
+    list-style-type: none; /*A*/
+    margin: 0; /*A*/
+    padding: 0; /*A*/
+    width: 200px; /*A*/
+    font-size: 10px; /*A*/
+    border: 1px solid black;
+}
+
+li.navbaritem a { /*A*/
+    display: block; /*A*/
+    color: #000; /*A*/
+    padding: 8px 16px; /*A*/
+    text-decoration: none; /*A*/
+    border: 1px solid black;
+}
+
+/* Change the link color on hover */
+.navbaritem a:hover { /*A*/
+    /*background-color: #5500ff;
+    color: white;
+    text-align: right;*/
+    text-decoration: line-through;
+}
+
+li {
+    font-size: 12px;
+}
+
+.colorblock {
+    background-color: #5500ff;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    height: 100px;
+    text-indent: 0px;
+}
